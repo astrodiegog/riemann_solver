@@ -416,7 +416,11 @@ void RiemannProblem::solve(float DOMLEN, int CELLS, float DIAPH, float TIMEOUT, 
     outfile << DOMLEN;
     outfile << ", " << CELLS;
     outfile << ", " << DIAPH;
-    outfile << ", " << TIMEOUT << ",0" << std::endl;
+    outfile << ", " << TIMEOUT << ", 0" << std::endl;
+
+    outfile << PM;
+    outfile << ", " << UM;
+    outfile << ", 0, 0, 0" << std::endl;
 
     for (int I = 0; I < CELLS; I++)
     {
