@@ -14,7 +14,7 @@ Specifically, the starting states and ending time for each test are
 The `.txt` files are solutions using a domain length from 0 to 1, 100 cells, discontinuity at 0.5, and a $\gamma = 1.4$. The format is such that the first line serves as the "head" of this dataset holding the domain length, number of cells, diaphgram (point of discontinuity), and time evaluated. The second line holds the star region pressure and velocity to compare against Table 4.3 of Toro. There are three differences:
 
 | Test | $$P_{\mathrm{diego}}$$ | $$u_{\mathrm{diego}}$$ | $$P_{\mathrm{Toro}}$$ | $$u_{\mathrm{Toro}}$$ |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 (sod) | 0.30313 | 0.92745 | 0.30313 | 0.92745 |
 | 2 (123) | 0.00189 | 0 | 0.00189 | 0 |
 | 3 (strong shock) | 460.894 | 19.5974 | 460.894 | 19.5975 |

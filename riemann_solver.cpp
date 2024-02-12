@@ -29,13 +29,13 @@ int main()
     DOMLEN = 1.;
     CELLS = 100;
     DIAPH = 0.5;
-    TIMEOUT = 0.25;
+    TIMEOUT = 0.035;
 
     int readin = 0;
 
     // create riemann problem
     RiemannProblem riemannprob;
-    char soln_fname[] = "test/sod_soln.txt";
+    char soln_fname[] = "test/twoshock_soln.txt";
 
     if (readin)
     {
@@ -50,7 +50,7 @@ int main()
     }
     else
     {
-        riemannprob.set_test1(GAMMA, MPA);
+        riemannprob.set_test4(GAMMA, MPA);
     }
 
     riemannprob.get_prob();
