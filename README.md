@@ -35,7 +35,7 @@ Currently, the equation of state is just a simple caloric $$e=e(\rho,P)=P/(\rho 
 
 ## TODO
 
-There are four main things I want to add onto this program before I feel finished
+There are four main things I want to add onto this program before I feel finished with this project
 
 1. Test for memory leaks. I have done this before on Linux devices for my CS152 course. However, I used Valgrind to check for memory issues, which is not available on macOS (which is where I'm developing this code).
 2. Create a Make file. I believe compilation can occur by calling a makefile, which I would like to get familiarity with.
